@@ -7,7 +7,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Links](#links)
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
-- [My process](#my-process)
 - [Built with](#built-with)
 - [Author](#author)
 
@@ -25,10 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop:
 ![](./screenshots/desktop-screenshot.png)
+Mobile:
 ![](./screenshots/mobile-screenshot.png)
-
-## My process
 
 ### Built with
 
