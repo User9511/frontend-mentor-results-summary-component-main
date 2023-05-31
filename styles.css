@@ -172,7 +172,7 @@ body {
   text-align: center;
   background: var(--Dark-gray-blue);
   width: 100%;
-  padding: 1rem;
+  padding: 0.75rem;
   cursor: pointer;
   border: 0;
   border-radius: 3rem;
