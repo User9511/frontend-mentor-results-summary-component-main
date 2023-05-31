@@ -1,57 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Title -->
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
+    <!-- Card Container -->
     <div class="card-container">
+      <!-- Result Container -->
       <div class="result-container">
+        <!-- Result Title -->
         <h1 class="card-title">Your Result</h1>
+
+        <!-- Result Circle -->
         <div class="circle">
           <span class="result">76</span>
           <span>of 100</span>
         </div>
+
+        <!-- Result Subtitle -->
         <h2 class="subtitle">Great</h2>
+
+        <!-- Result Description -->
         <p>You scored higher than 65% of the people who have taken these tests.</p>
       </div>
 
+      <!-- Summary Container -->
       <div class="summary-container">
+        <!-- Summary Title -->
         <h2 class="card-title dark">Summary</h2>
+
+        <!-- Skill Container -->
         <div class="skill-container">
+          <!-- Reaction Skill -->
           <div class="skill reaction">
             <div class="icon">
-              <img src="./assets/images/icon-reaction.svg" />
+              <img src="assets/images/icon-reaction.svg" alt="Reaction Icon" />
               <p>Reaction</p>
             </div>
             <div>80<span class="score-grey"> / 100</span></div>
           </div>
+
+          <!-- Memory Skill -->
           <div class="skill memory">
             <div class="icon">
-              <img src="./assets/images/icon-memory.svg" />
+              <img src="assets/images/icon-memory.svg" alt="Memory Icon" />
               <p>Memory</p>
             </div>
             <div>92<span class="score-grey"> / 100</span></div>
           </div>
+
+          <!-- Verbal Skill -->
           <div class="skill verbal">
             <div class="icon">
-              <img src="./assets/images/icon-verbal.svg" />
+              <img src="assets/images/icon-verbal.svg" alt="Verbal Icon" />
               <p>Verbal</p>
             </div>
             <div>61<span class="score-grey"> / 100</span></div>
           </div>
+
+          <!-- Visual Skill -->
           <div class="skill visual">
             <div class="icon">
-              <img src="./assets/images/icon-visual.svg" />
+              <img src="assets/images/icon-visual.svg" alt="Visual Icon" />
               <p>Visual</p>
             </div>
             <div>72<span class="score-grey"> / 100</span></div>
           </div>
         </div>
 
+        <!-- Continue Button -->
         <button class="btn"><a href="#">Continue</a></button>
       </div>
     </div>

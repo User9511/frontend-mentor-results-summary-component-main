@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
 
+/* Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,6 +9,7 @@
   list-style: none;
 }
 
+/* Color Variables */
 :root {
   /* Primary */
   --Light-red: hsl(0, 100%, 67%);
@@ -19,12 +21,13 @@
   --Cobalt-blue: hsl(234, 85%, 45%);
   --Colbalt-blue-bg: hsl(240, 71%, 97%);
 
-  /*Gradients */
+  /* Gradients */
   --Light-slate-blue: hsl(252, 100%, 67%);
   --Light-royal-blue: hsl(241, 81%, 54%);
 
   --Violet-blue: hsla(256, 72%, 46%, 1);
   --Persian-blue: hsla(241, 72%, 46%, 0);
+
   /* Neutral */
   --White: hsl(0, 0%, 100%);
   --Pale-blue: hsl(221, 100%, 96%);
@@ -32,6 +35,7 @@
   --Dark-gray-blue: hsl(224, 30%, 27%);
 }
 
+/* Body Styles */
 body {
   display: grid;
   align-items: center;
@@ -41,6 +45,7 @@ body {
   font-size: 16px;
 }
 
+/* Card Container Styles */
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -50,6 +55,7 @@ body {
   max-width: 37.5rem;
 }
 
+/* Result Container Styles */
 .result-container,
 .summary-container {
   padding: 2rem;
@@ -65,6 +71,7 @@ body {
   border-radius: 0 0 2rem 2rem;
 }
 
+/* Circle Styles */
 .circle {
   display: flex;
   flex-direction: column;
@@ -72,26 +79,30 @@ body {
   justify-content: center;
   background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
   border-radius: 100%;
-  width: 11rem;
-  height: 11rem;
+  width: 10.5rem;
+  height: 10.5rem;
   margin: 1rem 0;
 }
 
+/* Result Styles */
 .result {
   font-size: 4rem;
   color: var(--White);
 }
 
+/* Subtitle Styles */
 .subtitle {
   font-size: 1.65rem;
   color: var(--White);
 }
 
+/* Summary Container Styles */
 .summary-container {
   background-color: var(--White);
   border-radius: 2rem;
 }
 
+/* Skill Container Styles */
 .skill-container {
   display: flex;
   flex-direction: column;
@@ -99,6 +110,7 @@ body {
   margin: 2rem 0;
 }
 
+/* Skill Styles */
 .skill {
   display: flex;
   align-items: center;
@@ -107,11 +119,13 @@ body {
   border-radius: 0.5rem;
 }
 
+/* Icon Styles */
 .icon {
   display: flex;
   gap: 0.5rem;
 }
 
+/* Reaction Skill Styles */
 .reaction {
   background: var(--Light-red-bg);
 }
@@ -120,6 +134,7 @@ body {
   color: var(--Light-red);
 }
 
+/* Memory Skill Styles */
 .memory {
   background: var(--Orangey-yellow-bg);
 }
@@ -128,6 +143,7 @@ body {
   color: var(--Orangey-yellow);
 }
 
+/* Verbal Skill Styles */
 .verbal {
   background: var(--Green-teal-bg);
 }
@@ -136,6 +152,7 @@ body {
   color: var(--Green-teal);
 }
 
+/* Visual Skill Styles */
 .visual {
   background: var(--Colbalt-blue-bg);
 }
@@ -144,10 +161,12 @@ body {
   color: var(--Cobalt-blue);
 }
 
+/* Score Styles */
 .score-grey {
   color: var(--Light-lavender);
 }
 
+/* Button Styles */
 .btn {
   background: var(--Dark-gray-blue);
   width: 100%;
@@ -156,6 +175,7 @@ body {
   border: 0;
   border-radius: 3rem;
 }
+
 .btn:hover {
   background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
 }
@@ -165,7 +185,7 @@ body {
   font-weight: 500;
 }
 
-/* Typography */
+/* Typography Styles */
 h1 {
   font-size: 1.25rem;
 }
@@ -180,14 +200,17 @@ span {
 .card-title {
   font-size: 1.25rem;
 }
+
 .card-title.dark {
   color: var(--Dark-gray-blue);
 }
 
+/* Media Query Styles */
 @media screen and (min-width: 48rem) {
   body {
     height: 100vh;
   }
+
   .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
