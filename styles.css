@@ -156,9 +156,13 @@ body {
   border: 0;
   border-radius: 3rem;
 }
+.btn:hover {
+  background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+}
 
 .btn a {
   color: var(--White);
+  font-weight: 500;
 }
 
 /* Typography */
