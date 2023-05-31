@@ -168,21 +168,20 @@ body {
 
 /* Button Styles */
 .btn {
+  display: inline-block;
+  text-align: center;
   background: var(--Dark-gray-blue);
   width: 100%;
   padding: 1rem;
   cursor: pointer;
   border: 0;
   border-radius: 3rem;
+  color: var(--White);
+  font-weight: 500;
 }
 
 .btn:hover {
   background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
-}
-
-.btn a {
-  color: var(--White);
-  font-weight: 500;
 }
 
 /* Typography Styles */
